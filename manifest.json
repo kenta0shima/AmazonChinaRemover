@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Amazon China Remover",
+  "description": "Amazonの検索結果から中華を除外します",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "delivery-truck.png"
+  },
+  "background": {
+    "scripts": ["js/eventpage.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "https://www.amazon.co.jp/"
+  ]
+}
