@@ -1,0 +1,2 @@
+# AmazonChinaRemover
+中華除外のためのChromeExtensionです
